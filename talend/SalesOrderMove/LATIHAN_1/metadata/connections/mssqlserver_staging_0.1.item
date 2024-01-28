@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_qCgsoLziEe6xWO9HhZ0bLw" name="mssqlserver_staging" id="_Sjg9gLzgEe6xWO9HhZ0bLw" label="mssqlserver_staging" dataPackage="_VjK2YL2tEe6ccdi937ldTg" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://localhost:1433/Staging;" dbVersionString="JTDS" Port="1433" Username="ikhsanadi" Password="enc:system.encryption.key.v1:+90aH15uJjT37q8Wnn0uMylxLBTzdB2cbV0gJJJGQ8n2J37L2g==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="Staging" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
+    <taggedValue xmi:id="_qCih0LziEe6xWO9HhZ0bLw" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_qDIXsLziEe6xWO9HhZ0bLw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_qDNQMLziEe6xWO9HhZ0bLw" tag="Status" value=""/>
+    <taggedValue xmi:id="_qDNQMbziEe6xWO9HhZ0bLw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_qDNQMrziEe6xWO9HhZ0bLw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_qDNQM7ziEe6xWO9HhZ0bLw" tag="Description" value=""/>
+    <taggedValue xmi:id="_qDNQNLziEe6xWO9HhZ0bLw" tag="Author" value=""/>
+    <taggedValue xmi:id="_qDNQNbziEe6xWO9HhZ0bLw" tag="otherParameter"/>
+    <taggedValue xmi:id="_qDarkLziEe6xWO9HhZ0bLw" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_qDarkbziEe6xWO9HhZ0bLw" tag="DB ProductVersion" value="15.00.2000"/>
+    <taggedValue xmi:id="_qDarkrziEe6xWO9HhZ0bLw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <queries xmi:id="_PPO6kLzmEe6xWO9HhZ0bLw">
+      <query xmi:id="_PPO6krzmEe6xWO9HhZ0bLw" id="_PPO6kbzmEe6xWO9HhZ0bLw" label="customer_query" value="select * from customer;"/>
+      <query xmi:id="_kbYKkL0aEe6nQpsiV0iSiw" id="_kbXjgL0aEe6nQpsiV0iSiw" label="product_query" value="select * from product;"/>
+      <query xmi:id="_-naVcL0hEe6nQpsiV0iSiw" id="_-nZuYL0hEe6nQpsiV0iSiw" label="status_order_query" value="select * from status_order;"/>
+      <query xmi:id="_Jktwgb0iEe6nQpsiV0iSiw" id="_JktwgL0iEe6nQpsiV0iSiw" label="sales_order_query" value="select * from sales_order;"/>
+    </queries>
+    <parameters xmi:id="_qCih0bziEe6xWO9HhZ0bLw" key="CONN_PARA_KEY_USERNAME" value="ikhsanadi"/>
+    <parameters xmi:id="_5QPMgL0NEe6InNL4eWkq9A" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_VjK2YL2tEe6ccdi937ldTg" name="Staging" dataManager="_qCgsoLziEe6xWO9HhZ0bLw">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_VjK2Yb2tEe6ccdi937ldTg" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

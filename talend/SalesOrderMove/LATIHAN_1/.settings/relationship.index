@@ -1,0 +1,120 @@
+[ {
+  "baseItem" : {
+    "id" : "_CceZkLzBEe6ybuRLgWTXkg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Sjg9gLzgEe6xWO9HhZ0bLw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Sjg9gLzgEe6xWO9HhZ0bLw - customer_query",
+    "version" : "Latest",
+    "type" : "query"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_LLz9EL0VEe6nQpsiV0iSiw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_3olYkL0VEe6nQpsiV0iSiw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Sjg9gLzgEe6xWO9HhZ0bLw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Sjg9gLzgEe6xWO9HhZ0bLw - customer_query",
+    "version" : "Latest",
+    "type" : "query"
+  }, {
+    "id" : "_Sjg9gLzgEe6xWO9HhZ0bLw - product_query",
+    "version" : "Latest",
+    "type" : "query"
+  }, {
+    "id" : "_Sjg9gLzgEe6xWO9HhZ0bLw - sales_order_query",
+    "version" : "Latest",
+    "type" : "query"
+  }, {
+    "id" : "_Sjg9gLzgEe6xWO9HhZ0bLw - status_order_query",
+    "version" : "Latest",
+    "type" : "query"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_QKNNUGZ8EeWm5YvsrIoYzQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SQLike",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_aBf5cLwZEe6wXrH7C0kV4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_EZEmMLweEe6ZVZRHz4KeKg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Ti7rALxPEe6NMZlX8CwbKg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_EZEmMLweEe6ZVZRHz4KeKg - movies_schema",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Ti7rALxPEe6NMZlX8CwbKg - directors_schema",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_m360oLxNEe6NMZlX8CwbKg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_EZEmMLweEe6ZVZRHz4KeKg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_EZEmMLweEe6ZVZRHz4KeKg - movies_schema",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
